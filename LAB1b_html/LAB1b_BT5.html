@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    body {
+        background-color: #F8F8F8;
+        padding: 10px;
+    }
+
+    .title {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .spread {
+        margin-top: 5px;
+        width: 100px;
+        background-color: cornflowerblue;
+        border-radius: 20px;
+        height: 1px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        gap: 3rem;
+        font-weight: 600;
+    }
+
+    .navbar > div {
+        color: rgba(0, 0, 0, 0.58);
+    }
+
+    .table {
+        margin-top: 3rem;
+        background-color: #FFFFFF;
+        width: 100%;
+    }
+    .table table {
+        height: 100%;
+        padding: 10px;
+    }
+    .table td {
+        background-color: #9ACC78;
+        width: calc(100% / 3);
+        height: 170px;
+        margin: 20px;
+        text-align: center;
+
+    }
+</style>
+<body>
+<header>
+    <div class="title"><h2>MY PORTFOLIO</h2></div>
+    <div class="spread"></div>
+    <div class="navbar">
+        <div>All</div>
+        <div>Web App</div>
+        <div>UI/UX</div>
+        <div>Graphics Design</div>
+        <div>Mobile App</div>
+        <div>Branding</div>
+        <div>Marketing</div>
+    </div>
+</header>
+
+<div class="table">
+    <table width="100%" cellspacing="20px" align="center">
+        <tr>
+            <td>Học Web Chuẩn</td>
+            <td>Học Web Chuẩn</td>
+            <td>Học Web Chuẩn</td>
+        </tr>
+        <tr>
+            <td>Học Web Chuẩn</td>
+            <td>Học Web Chuẩn</td>
+            <td>Học Web Chuẩn</td>
+        </tr>
+        <tr>
+            <td>Học Web Chuẩn</td>
+            <td>Học Web Chuẩn</td>
+            <td>Học Web Chuẩn</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
